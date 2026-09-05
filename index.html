@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adequate Auto Glass | Austin Windshield Repair & Replacement</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .glass-card {
+      background: rgba(15, 20, 28, 0.88);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+  </style>
+</head>
+<body class="bg-[#080b11] text-zinc-100 antialiased selection:bg-cyan-400 selection:text-black">
+
+  <div class="sticky top-3 z-50 flex justify-center px-4">
+    <div class="glass-card px-4 py-2 rounded-full shadow-2xl flex items-center gap-2 border border-cyan-400/40">
+      <span class="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-ping"></span>
+      <span class="text-xs font-semibold text-zinc-200">★ 4.9 Star Auto Glass • Mobile Service Across Austin</span>
+    </div>
+  </div>
+
+  <header class="pt-10 pb-8 px-6 text-center max-w-xl mx-auto">
+    <span class="inline-block px-3.5 py-1 rounded-full text-[11px] font-bold tracking-wider uppercase bg-cyan-400/10 text-cyan-400 border border-cyan-400/20 mb-4">
+      Fast Mobile Windshield Repair
+    </span>
+    <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white leading-tight">
+      Adequate <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-blue-400">Auto Glass</span>
+    </h1>
+    <p class="text-zinc-400 mt-3 text-sm leading-relaxed max-w-md mx-auto">
+      Cracked windshield or rock chip? OEM-grade replacement, power window regulators, and resin injections at your home or workplace.
+    </p>
+    
+    <div class="mt-7 flex flex-col gap-3 justify-center">
+      <a href="#services" class="bg-gradient-to-r from-cyan-400 to-blue-500 hover:opacity-95 text-black font-extrabold px-6 py-4 rounded-xl shadow-lg shadow-cyan-950 transition text-sm flex items-center justify-center gap-2">
+        View Glass Services & Estimates
+      </a>
+      <a href="#contact" class="glass-card hover:bg-zinc-800 text-zinc-200 font-semibold px-5 py-3.5 rounded-xl transition text-sm">
+        Shop Location & Hours
+      </a>
+    </div>
+  </header>
+
+  <section class="py-4 px-6 max-w-xl mx-auto">
+    <div class="text-center mb-3">
+      <span class="text-xs uppercase tracking-widest text-cyan-400 font-bold">Resin Precision Repair</span>
+      <p class="text-sm font-semibold text-zinc-300">Swipe to reveal rock chip restoration</p>
+    </div>
+
+    <div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden select-none border border-zinc-800 shadow-2xl glass-card">
+      <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1000&q=85" 
+           alt="Repaired Windshield Clear Glass" 
+           class="absolute inset-0 w-full h-full object-cover">
+      <span class="absolute top-3 right-3 bg-cyan-400 text-black text-[10px] font-black uppercase px-2.5 py-0.5 rounded shadow">Repaired Clarity</span>
+
+      <div id="beforeWrap" class="absolute inset-0 w-1/2 overflow-hidden border-r-2 border-cyan-400">
+        <img src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1000&q=85" 
+             alt="Cracked Windshield Rock Chip" 
+             class="absolute inset-0 w-full h-full object-cover max-w-none" style="width: 200%;">
+        <span class="absolute top-3 left-3 bg-black/80 text-zinc-300 text-[10px] font-black uppercase px-2.5 py-0.5 rounded shadow">Rock Chip / Crack</span>
+      </div>
+
+      <input type="range" min="0" max="100" value="50" id="rangeInput" class="absolute inset-0 opacity-0 cursor-ew-resize w-full h-full z-20">
+    </div>
+  </section>
+
+  <section id="services" class="py-6 px-6 max-w-xl mx-auto space-y-3.5">
+    <div class="flex items-center justify-between">
+      <h2 class="text-xl font-bold tracking-wide text-white">Glass Capabilities</h2>
+      <span class="text-xs text-cyan-400 font-semibold uppercase">Austin Metro</span>
+    </div>
+
+    <div class="glass-card rounded-2xl p-5 border-2 border-cyan-400/80 shadow-lg relative">
+      <span class="absolute -top-3 right-4 bg-cyan-400 text-black text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full tracking-wider">
+        Most Requested
+      </span>
+      <div class="flex justify-between items-start">
+        <div>
+          <h3 class="font-bold text-base text-white">Windshield Replacement</h3>
+          <p class="text-xs text-cyan-400 font-semibold mt-0.5">OEM Glass & ADAS Sensor Calibration</p>
+        </div>
+      </div>
+      <p class="text-xs text-zinc-400 mt-2 leading-relaxed">
+        Full mobile replacement for shattered or heavily cracked front windshields with leak-proof urethane seals.
+      </p>
+    </div>
+
+    <div class="glass-card rounded-2xl p-5 border border-zinc-800 shadow-sm">
+      <div>
+        <h3 class="font-bold text-base text-white">Rock Chip & Star Crack Repair</h3>
+        <p class="text-xs text-cyan-400 font-semibold mt-0.5">Pressure Resin Injection</p>
+      </div>
+      <p class="text-xs text-zinc-400 mt-2 leading-relaxed">
+        Stop chips from spreading across your windshield. Done in under 30 minutes to preserve your factory seal.
+      </p>
+    </div>
+
+    <div class="glass-card rounded-2xl p-5 border border-zinc-800 shadow-sm">
+      <div>
+        <h3 class="font-bold text-base text-white">Side, Rear Glass & Window Regulators</h3>
+        <p class="text-xs text-cyan-400 font-semibold mt-0.5">Door Glass & Power Motor Repairs</p>
+      </div>
+      <p class="text-xs text-zinc-400 mt-2 leading-relaxed">
+        Tempered glass replacement for side/back windows and fixing power windows stuck up or down.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="px-6 max-w-xl mx-auto">
+    <div class="glass-card rounded-2xl p-4 text-center text-xs text-zinc-400">
+      📍 Shop: 500 S Lamar Blvd, Austin, TX 78704 • Mobile Units Available
+    </div>
+  </section>
+
+  <section class="py-8 px-6 max-w-xl mx-auto">
+    <div class="glass-card rounded-2xl p-6 text-center border border-cyan-400/40">
+      <h3 class="font-extrabold text-xl text-white">Need Glass Service Today?</h3>
+      <p class="text-xs text-zinc-400 mt-1 mb-5">Tap below to text vehicle details (Year/Make/Model) for an immediate quote.</p>
+      <a href="sms:?body=Hi%20Adequate%20Auto%20Glass,%20I%20need%20a%20quote%20for%20windshield%20repair.%20Vehicle:" class="block w-full bg-gradient-to-r from-cyan-400 to-blue-500 text-black font-extrabold py-3.5 rounded-xl shadow-lg transition text-sm">
+        Request Quote via Text
+      </a>
+    </div>
+  </section>
+
+  <footer class="text-center py-6 text-[11px] text-zinc-600 border-t border-zinc-900">
+    © Adequate Auto Glass • 500 S Lamar Blvd, Austin, TX
+  </footer>
+
+  <script>
+    const slider = document.getElementById('rangeInput');
+    const beforeWrap = document.getElementById('beforeWrap');
+    slider.addEventListener('input', (e) => {
+      beforeWrap.style.width = `${e.target.value}%`;
+    });
+  </script>
+</body>
+</html>
